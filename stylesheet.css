@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D3250;
+   
+}
+
+.container{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #424769;
+    margin-top: 14rem;
+    border-radius: 5%;
+    padding: 2rem auto;
+    position: relative;
+    padding: 0rem 2rem;
+    
+}
+
+.ad{
+
+    width: 90%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   letter-spacing: 4px;
+   margin: 2rem auto;
+   color: #F6B17A;
+   font-size: 20px;
+   
+}
+
+p{
+    font-family: 'Manrope', sans-serif;
+    color: #b9bed8;
+    text-align: center;
+    margin: 0rem auto;
+    padding-bottom: 2rem;
+    font-size: 1.5em;
+}
+
+.hrl{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0rem auto;
+
+}
+
+.hrl hr{
+    width: 60%;
+    border: 0.1px solid hsl(234, 29%, 25%);
+    
+}
+
+.circle{
+   width: 11%;
+   height: 17%;
+    background-color: #F6B17A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -25px;
+    right: -160px;
+    left: 215px;
+    
+}
+
+.circle:hover{
+    box-shadow: 4px 3px 52px 9px rgba(246,177,122,0.84);
+}
+
+ @media screen and (max-width: 900px) and (min-width: 700px){
+    
+    .container{
+        width: 80vw;
+        height: 40vh;
+        margin-top: 12rem;
+        padding: 0rem 1rem; 
+    }
+
+    .ad{
+
+        width: 10rem;
+       margin: 1rem auto;
+       font-size: 15px;
+    }
+    
+    p{
+        
+        padding-bottom: 1rem;
+        font-size: 1.2em;
+    }
+
+    .circle{
+        width: 7%;
+        height: 17%;
+         left: 330px;
+         
+     }
+
+}  
+   
+@media screen and (max-width: 799px) and (min-width: 600px){
+
+
+
+    .container{
+        width: 80vw;
+        height: 40vh;
+        margin-top: 12rem;
+        padding: 0rem 1rem; 
+    }
+
+    .ad{
+
+        width: 10rem;
+       margin: 1rem auto;
+       font-size: 15px;
+    }
+    
+    p{
+        
+        padding-bottom: 1rem;
+        font-size: 1.2em;
+    }
+
+    .circle{
+        width: 9%;
+        height: 17%;
+         left: 18rem;
+         
+     }
+}
+   
+@media screen and (max-width: 599px) and (min-width: 400px){
+    
+
+    .container{
+        width: 80vw;
+        height: 40vh;
+        margin-top: 12rem;
+        padding: 0rem 1rem; 
+    }
+
+    .ad{
+
+        width: 10rem;
+       margin: 1rem auto;
+       font-size: 15px;
+    }
+    
+    p{
+        
+        padding-bottom: 1rem;
+        font-size: 1.2em;
+    }
+
+    .circle{
+        width: 10%;
+        height: 17%;
+        left: 12.5rem;
+         
+     }
+
+}
+
+@media screen and (max-width: 399px){
+   
+   
+
+    .container{
+        width: 80vw;
+        height: 40vh;
+        margin-top: 12rem;
+        padding: 0rem 1rem; 
+    }
+
+    .ad{
+
+        width: 10rem;
+       margin: 1rem auto;
+       font-size: 15px;
+    }
+    
+    p{
+        
+        padding-bottom: 1rem;
+        font-size: 1.2em;
+    }
+
+    .circle{
+        width: 14%;
+        height: 17%;
+         left: 9rem;
+         
+     }
+    
+ 
+}
+    
+    
